@@ -22,7 +22,7 @@ def home():
 # this returns 100 (square of 10) 
 @app.route('/home/<int:num>', methods = ['GET']) 
 def disp(num): 
-	print("Test! 123")
+	print("Test! 123456")
 	return jsonify({'data': num**2}) 
 
 
